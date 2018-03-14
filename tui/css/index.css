@@ -1,0 +1,151 @@
+ *{
+      margin: 0;
+      padding: 0;
+    }
+  li{
+    list-style: none;
+  }
+html,body{
+    width: 100%;
+ }
+ html{
+  font-size: 100px;
+    background-image: url(../image/1.jpg);
+ }
+ .sh{
+  width: 100%;
+  height: 4.7rem;
+  z-index: 999;
+  display: block;
+ }
+
+ .header{
+  width: 100%;
+  height:.5rem;
+ }
+ .hea .img1 img{
+  position: absolute;
+  display:block;
+  margin-top:.13rem;
+  width: .36rem;
+  height: .3rem;
+  margin-left: .16rem;
+ }
+  .hea p{
+  margin-top:.13rem;
+  font-size: .22rem;
+  float: right;
+  margin-right: .16rem;
+  color: #ffffff;
+ }
+ .hea .img2 img{
+  display: block;
+  float: right;
+  width: .71rem;
+  height: .3rem;
+  margin-top:.13rem;
+  padding-right: .3rem;
+ }
+
+.biaoti ul{
+  width: 100%;
+}
+ .biaoti ul li{
+  width: 20%;
+  height: .93rem;
+  font-size: .23rem;
+  float: left;
+  text-align: center;
+  line-height: .93rem;
+  color: #ffffff;
+ }
+.search{
+  margin-top: 3.2rem;
+}
+ .search input{
+  margin-left: .46rem;
+  width: 5.8rem;
+  height: .5rem;
+  border-radius: 12px;
+  float: left;
+  opacity: 0.8;
+  color: red;
+  font-size: .23rem;
+ }
+ .search .sea img{
+  width: .54rem;
+  height: .5rem;
+  display: block;
+ float: left;
+ margin-left: .12rem;
+ }
+
+#banner{
+
+ background-position:center 0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
+  opacity:1;
+  transition:opacity 1s linear;
+  -moz-transition:opacity 1s linear;
+  -webkit-transition:opacity 1s linear;
+  -o-transition:opacity 1s linear;
+   width: 100%;
+  height: 4.7rem;
+  position: absolute;
+  top: 0;
+  z-index: -9
+}
+.fenlei ul{
+  width: 100%;
+  height: .14rem;
+  margin-top:.2rem;
+  text-align: center;
+}
+.fenlei ul li{
+  width: 25%;
+  height: .14rem;
+  float:left;
+  text-align: center;
+}
+.fenlei{
+  width: 100%;
+  height: 2.11rem;
+}
+.fenlei ul li img{
+  width: .8rem;
+  height: .8rem;
+}
+.fenlei ul li p{
+  font-size: .23rem;
+}
+
+.select li{
+  float: left;
+  width: 48%;
+   color: #ffffff;
+   margin-left: .1rem;
+   margin-top: .1rem;
+} 
+.select li img{
+  width: 3.45rem;
+  height: 2.06rem;
+}
+
+.bt p{
+  font-size: .24rem;  
+  padding-left: .12rem;
+    color: #ffffff;
+}
+.ft span{
+  font-size: .19rem;
+  display: block;
+  padding-left: .12rem;
+  margin-top: -.19rem;
+}
+.ft p{
+  font-size: .15rem;
+  padding-left: .12rem;
+}

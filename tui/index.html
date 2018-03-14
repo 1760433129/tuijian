@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>推荐</title>
+    
+    <link charset="utf-8" type="text/css" rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div class="sh" id="sh">
+    <div class="header">
+    <div class="hea">
+    <div class="img1"><img src="image/推荐-_03.gif" alt=""></div>
+    <div class="img2"><img src="image/推荐-_06.gif" alt=""></div>        
+    <p>11:30</p>
+    </div>
+</div>
+
+<div class="biaoti">
+    <ul>
+        <li>推荐</li>
+        <li>频道</li>
+        <li>搜索</li>
+        <li>影购</li>
+        <li>我的</li>
+    </ul>
+</div>
+
+<div class="search">
+    <input type="search" placeholder="    搜索片名">
+    <a href="" class="sea"><img src="image/推荐-_11.gif" alt=""></a>
+</div>  
+</div>
+
+ <div id="banner"></div>
+
+<div class="fenlei">
+    <ul>
+        <li>
+            <img src="image/推荐-_15.gif" alt="">
+            <p>电视剧</p>
+        </li>
+        <li>
+            <img src="image/推荐-_17.gif" alt="">
+            <p>电影</p>
+        </li>
+        <li>
+         <img src="image/推荐-_19.gif" alt="">
+         <p>综艺</p>
+        </li>
+        <li>
+            <img src="image/推荐-_21.gif" alt="">
+            <p>会员</p>
+        </li>
+    </ul>
+</div>
+
+<div class="select">
+    <div class="bt"><p>今日精选</p></div>
+    <div class="ft">
+        <ul>
+            <li>
+                <img src="image/推荐-_28.gif" alt="">
+                 <span>职场是个技术活</span>
+                 <p>讲述一个职场的女孩</p>
+            </li>
+            <li>
+                <img src="image/推荐-_30.gif" alt="">
+                 <span>楚乔传</span>
+                 <p>楚乔造锦烛陷害</p>
+            </li>
+            <li>
+                <img src="image/推荐-_34.gif" alt="">
+                 <span>我想和你唱  第二季</span>
+                 <p>楚乔造锦烛陷害</p>
+            </li>
+            <li>
+                <img src="image/推荐-_35.gif" alt="">
+                 <span>楚乔传</span>
+                 <p>楚乔造锦烛陷害</p>
+            </li>
+            <li>
+                <img src="image/推荐-_28.gif" alt="">
+                 <span>楚乔传</span>
+                 <p>楚乔造锦烛陷害</p>
+            </li>
+            <li>
+                <img src="image/推荐-_28.gif" alt="">
+                 <span>楚乔传</span>
+                 <p>楚乔造锦烛陷害</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+
+var bgNum,
+    bgImgArr = ['image/推荐-_01.gif', 'image/推荐-_02.jpg','image/推荐-_04.jpg', 'image/推荐-_05.jpg'],
+    bgDiv = document.getElementById("banner");
+setBGimg();
+
+function setBGimg(u) {
+    if (!bgNum || bgNum >= bgImgArr.length) bgNum = 0;
+    bgDiv.style.opacity = 0.6;
+    setTimeout(function() {
+        bgDiv.style.backgroundImage = 'url(' + bgImgArr[bgNum] + ')';
+        bgNum++;
+        bgDiv.style.opacity = 1;
+    }, 900);
+    if (typeof u == 'undefined')
+        setInterval(function() {
+            setBGimg(true);
+        }, 6000);
+}
+
+</script>
+
+
+ <script src="js/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/zepto.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/swiper.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
